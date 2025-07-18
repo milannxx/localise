@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 31px;
+    width: 100%;
+    max-width: 1338px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.header_container {
+    width: 100%; 
+    max-width: 731px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_container--nav {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_container--nav--link {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_btns {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_btns--button:first-child {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid #00000080;
+    width: 120px;
+    height: 45px;
+    background-color: white;
+}
+
+.header_btns--button:last-child {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #FF6336;
+    width: 120px;
+    height: 45px;
+    border: 1px solid #FF6336;
+    color: #FFFFFF;
+}
+
+main {
+    border-top: 1px solid #CCCCCC;
+}
+
+.accelerate {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accelerate_container {
+    width: 100%;
+    max-width: 538px;
+}
+
+.accelerate_container--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 65px;
+    line-height: 70px;
+    letter-spacing: 0%;
+    padding-bottom: 51px;
+    padding-top: 129px;
+}
+
+.accelerate_container--text {
+    max-width: 471px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    padding-bottom: 50px;
+}
+
+#accelerateimg {
+    padding-top: 151px;
+}
+
+.accelerate_container--try {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF6336;
+    border: 1px solid #FF6336;
+    width: 160px;
+    height: 60px;
+}
+
+.accelerate_container--book {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid #00000080;
+    width: 160px;
+    height: 60px;
+    background-color: white;
+}
+
+.accelerate_container--info {
+    padding-top: 25px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-bottom: 182px;
+}
+
+.companies {
+    background-color: #FF9C7D;
+    margin: 0 auto;
+}
+
+.companies_text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 98px 0px 70px;
+}
+
+.companies_sponsors {
+    width: 100%;
+    max-width: 1243px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 94px;
+}
