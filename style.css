@@ -60,6 +60,7 @@
     width: 120px;
     height: 45px;
     background-color: white;
+    cursor: pointer;
 }
 
 .header_btns--button:last-child {
@@ -74,6 +75,7 @@
     height: 45px;
     border: 1px solid #FF6336;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 main {
@@ -133,6 +135,7 @@ main {
     border: 1px solid #FF6336;
     width: 160px;
     height: 60px;
+    cursor: pointer;
 }
 
 .accelerate_container--book {
@@ -147,6 +150,7 @@ main {
     width: 160px;
     height: 60px;
     background-color: white;
+    cursor: pointer;
 }
 
 .accelerate_container--info {
@@ -187,4 +191,606 @@ main {
     align-items: center;
     margin: 0 auto;
     padding-bottom: 94px;
+}
+
+.apps {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.apps_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1290px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 250px;
+    justify-items: center;
+}
+
+.apps_container img {
+    width: 632px;
+    height: 632px;
+}
+
+.apps_container--content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    width: 520px;
+}
+
+.apps_container--content--titleFirst {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    max-width: 493px;
+}
+
+.apps_container--content--subtitleFirst {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 491px;
+}
+
+.apps_container--content span {
+    text-decoration: underline;
+}
+
+.apps_container--content--start {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.apps_container--content--titleSecond {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    max-width: 379px;
+}
+
+.apps_container--content--subtitleSecond {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 450px;
+}
+
+.apps_container--content--titleThird {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    max-width: 397px;
+}
+
+.apps_container--content--subtitleThird {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 520px;
+}
+
+.apps_container--content--titleFourth {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    max-width: 348px;
+}
+
+.apps_container--content--subtitleFourth {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 520px;
+}
+
+.lokalise {
+    background-color: #FFF8E4;
+    margin-bottom: 154px;
+}
+
+.lokalise_container {
+    width: 100%;
+    max-width: 1290px;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    margin: 0 auto;
+}
+
+.lokalise_container--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center; 
+    padding-bottom: 58px;   
+}
+
+.lokalise_container--content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 54px;
+}
+
+.lokalise_container--content--card {
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lokalise_container--content--card span {
+    text-decoration: underline;
+}
+
+.lokalise_container--content--card--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 20px;
+}
+
+.lokalise_container--content--card--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.lokalise_container--content--card--textGame {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 281px;
+}
+
+.lokalise_container--content--card--textMarketing {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 310px;
+}
+
+.teams {
+    margin-bottom: 150px;
+}
+
+.teams_container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.teams_container--title {
+    padding-bottom: 75px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+}
+
+.teams_container--content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teams_container--content--card {
+    width: 100%;
+    max-width: 410px;
+}
+
+.teams_container--content--card span {
+    text-decoration: underline;
+}
+
+.teams_container--content--card--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    padding-top: 49px;
+    padding-bottom: 34px;
+}
+
+.teams_container--content--card--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 409px;
+    padding-bottom: 25px;
+}
+
+.teams_container--content--card--learn {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.man {
+    background-color: #C9E8F2;
+}
+
+.man_container {
+    width: 100%;
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.man_container--content {
+    padding-bottom: 150px;
+}
+
+.man_container--content--subtitle {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    max-width: 920px;
+    padding-bottom: 23px;
+}
+
+.man_container--content--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    padding-bottom: 7px;
+}
+
+.cake {
+    background-color: #DABC98;
+}
+
+.cake_container {
+    width: 100%;
+    max-width: 1248px;
+    padding-top: 89px;
+    padding-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cake_container--content {
+    width: 100%;
+    max-width: 829px;
+    border-right: 1px solid #000000;
+    display: flex;
+}
+
+.cake_container--content--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    max-width: 515px;
+    padding-left: 67px;
+    padding-top: 27px;
+}
+
+.integration {
+    padding-top: 169px;
+    padding-bottom: 162px;
+}
+
+.integration_container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.integration_container--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 791px;
+    margin: 0 auto;
+}
+
+.integration_container--subtitle {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 539px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.integration_container img {
+    max-width: 1023px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.integration_container--button {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF6336;
+    height: 60px;
+    width: 193px;
+    border: solid 1px #FF6336;
+}
+
+.try {
+    background-color: #FF9C7D;
+}
+
+.try_container {
+    max-width: 1290px;
+    width: 100%;
+    padding-top: 119px;
+    padding-bottom: 161px;
+    margin: 0 auto;
+}
+
+.try_container--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 784px;
+    padding-bottom: 29px;
+    margin: 0 auto;
+}
+
+.try_container--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 54px;
+}
+
+.try_container--button {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 160px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    background-color: #EEEEEE;
+}
+
+.info {
+    padding-top: 92px;
+}
+
+.info_container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 95px;
+    border-bottom: 1px solid #000000;
+}
+
+.info_container--box {
+    width: 100%;
+    max-width: 370px;
+}
+
+.info_container--box--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    padding-bottom: 28px;
+}
+
+.info_container--box--img {
+    border: 1px solid #000000;
+    margin-bottom: 31px;
+}
+
+.info_container--box--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 290px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.info_container--box--read {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.info_container--content {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_container--content--card {
+    width: 100%;
+    max-width: 187px;
+}
+
+.info_container--content--card--top--title {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    padding-bottom: 21px;
+}
+
+.info_container--content--card--link {
+    list-style: none;
+}
+
+.info_container--content--card--link--click {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.info_container--content--card--link li {
+    padding-bottom: 15px;
+}
+
+.rights_container {
+    padding: 48px 0px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rights_container--content {
+    display: flex;
+}
+
+.rights_container--content--text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    max-width: 300px;
+    padding-left: 14px;
+}
+
+.rights_container--box--year {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0%;
+}
+
+.rights_container--box--reserved {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0%;
 }
